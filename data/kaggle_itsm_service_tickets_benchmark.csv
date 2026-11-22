@@ -1,0 +1,9 @@
+ticket_id,title,category,priority,requester_name,department,assigned_team,sla_target_minutes,elapsed_minutes,sla_breached,escalation_tier,status
+TCK-1001,Production Kubernetes API Gateway 502 Outage,Infrastructure,P1_CRITICAL,Marcus Vance,Engineering,Cloud Ops & DevOps,15,4,False,TIER_1_ON_CALL,INVESTIGATING
+TCK-1002,Okta SSO Multi-Factor Authentication Token Desync,Security & Identity,P1_CRITICAL,Sarah Jenkins,Human Resources,Security & IAM,15,18,True,TIER_2_LEAD_ESCALATED,AUTO_ESCALATED
+TCK-1003,PostgreSQL Replication Lag & Deadlocks on Primary,Database Systems,P2_HIGH,Carlos Ortiz,Data Platform,Database Operations,60,22,False,TIER_1_ON_CALL,IN_PROGRESS
+TCK-1004,Jenkins CI/CD Build Runner Disk Exhaustion,DevOps Tooling,P2_HIGH,Elena Rostova,Engineering,Cloud Ops & DevOps,60,65,True,TIER_2_LEAD_ESCALATED,AUTO_ESCALATED
+TCK-1005,Salesforce Enterprise API Rate-Limit Depletion,Integrations,P3_MEDIUM,Derrick Miller,Revenue Operations,Business Systems,240,45,False,NONE,ASSIGNED
+TCK-1006,New Engineering Laptop Provisioning & BitLocker Setup,Hardware & IT,P3_MEDIUM,Samantha Wu,Operations,Service Desk L1,240,110,False,NONE,IN_PROGRESS
+TCK-1007,Maternity Leave Approval Workflow Discrepancy,HR Operations,P4_LOW,James Thornton,Marketing,HR & People Ops,480,95,False,NONE,RESOLVED
+TCK-1008,Zoom Rooms Video Conference Mic Failure Boardroom A,AV & Workplace,P4_LOW,Amina Al-Mansoor,Facilities,Workplace Tech,480,310,False,NONE,RESOLVED

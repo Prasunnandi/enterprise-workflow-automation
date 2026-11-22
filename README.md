@@ -12,6 +12,17 @@ An enterprise service orchestration platform merging **ServiceOps** (IT Service 
 
 ---
 
+## 📸 Working System Preview
+
+![Enterprise Service & Workflow Automation Cockpit](docs/screenshots/dashboard.png)
+
+## 📊 Kaggle & Production ITSM Datasets
+
+The platform is pre-loaded with ITIL / ITSM service tickets modeled on Kaggle Enterprise Service Desk benchmarks:
+- [`kaggle_itsm_service_tickets_benchmark.csv`](data/kaggle_itsm_service_tickets_benchmark.csv): Real-world service tickets across Infrastructure, Security & IAM, Database Systems, DevOps Tooling, and HR Operations, priority tags (P1–P4), SLA target response & resolution countdowns, real elapsed times, and automated Quartz escalation triggers.
+
+---
+
 ## 📌 Architecture & Automated Pipeline
 
 ```mermaid
